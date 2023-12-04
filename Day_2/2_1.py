@@ -23,6 +23,4 @@ def extract_numbers_by_color():
             index += 1
         return sum
 
-# Example usage:
-input_string = "Game 1: 12 blue; 2 green, 13 blue, 19 red; 13 red, 3 green, 14 blue"
 print(extract_numbers_by_color())
